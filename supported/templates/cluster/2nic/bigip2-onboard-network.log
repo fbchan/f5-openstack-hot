@@ -1,0 +1,77 @@
+2018-01-10T02:22:34.095Z info: [pid: 25788] [scripts/network.js] /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/network.js called with /usr/bin/f5-rest-node /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/network.js -o /var/log/onboard-network.log --log-level debug --host localhost --user admin --password-url file:///config/cloud/openstack/adminPwd --vlan name:data,nic:1.1,mtu:1400 --self-ip name:cluster_self_ip,address:10.0.40.111/24,vlan:data,allow:tcp:4353 udp:1026 tcp:443  
+2018-01-10T02:22:34.181Z info: [pid: 25788] [scripts/network.js] Network setup starting.
+2018-01-10T02:22:34.189Z info: [pid: 25788] [scripts/network.js] Initializing BIG-IP.
+2018-01-10T02:22:34.235Z info: [pid: 25788] [scripts/network.js] Waiting for BIG-IP to be ready.
+2018-01-10T02:22:34.277Z debug: [pid: 25788] [scripts/network.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:34.574Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:34.596Z debug: [pid: 25788] [scripts/network.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:34.679Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:34.686Z debug: [pid: 25788] [scripts/network.js] list localhost /tm/sys/available
+2018-01-10T02:22:34.742Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:34.753Z debug: [pid: 25788] [scripts/network.js] list localhost /tm/cm/available
+2018-01-10T02:22:34.803Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:34.808Z debug: [pid: 25788] [scripts/network.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:34.881Z debug: [pid: 25788] [scripts/network.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:22:34.886Z info: [pid: 25788] [scripts/network.js] BIG-IP is ready.
+2018-01-10T02:22:34.888Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:34.891Z info: [pid: 25788] [scripts/network.js] Creating vlan data on interface 1.1 mtu 1400 untagged
+2018-01-10T02:22:34.898Z debug: [pid: 25788] [scripts/network.js] create localhost /tm/net/vlan {"name":"data","interfaces":[{"name":"1.1","tagged":false}],"mtu":"1400"}
+2018-01-10T02:22:35.408Z debug: [pid: 25788] [scripts/network.js]  {"kind":"tm:net:vlan:vlanstate","name":"data","partition":"Common","fullPath":"/Common/data","generation":30,"selfLink":"https://localhost/mgmt/tm/net/vlan/~Common~data?ver=13.1.0.1","autoLasthop":"default","cmpHash":"default","dagRoundRobin":"disabled","dagTunnel":"outer","failsafe":"disabled","failsafeAction":"failover-restart-tm","failsafeTimeout":90,"fwdMode":"l3","hardwareSyncookie":"disabled","ifIndex":112,"learning":"enable-forward","mtu":1400,"sflow":{"pollInterval":0,"pollIntervalGlobal":"yes","samplingRate":0,"samplingRateGlobal":"yes"},"sourceChecking":"disabled","synFloodRateLimit":1000,"syncacheThreshold":6000,"tag":4094,"interfacesReference":{"link":"https://localhost/mgmt/tm/net/vlan/~Common~data/interfaces?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:22:35.415Z debug: [pid: 25788] [scripts/network.js]  [{"kind":"tm:net:vlan:vlanstate","name":"data","partition":"Common","fullPath":"/Common/data","generation":30,"selfLink":"https://localhost/mgmt/tm/net/vlan/~Common~data?ver=13.1.0.1","autoLasthop":"default","cmpHash":"default","dagRoundRobin":"disabled","dagTunnel":"outer","failsafe":"disabled","failsafeAction":"failover-restart-tm","failsafeTimeout":90,"fwdMode":"l3","hardwareSyncookie":"disabled","ifIndex":112,"learning":"enable-forward","mtu":1400,"sflow":{"pollInterval":0,"pollIntervalGlobal":"yes","samplingRate":0,"samplingRateGlobal":"yes"},"sourceChecking":"disabled","synFloodRateLimit":1000,"syncacheThreshold":6000,"tag":4094,"interfacesReference":{"link":"https://localhost/mgmt/tm/net/vlan/~Common~data/interfaces?ver=13.1.0.1","isSubcollection":true}}]
+2018-01-10T02:22:35.419Z info: [pid: 25788] [scripts/network.js] Creating self IP cluster_self_ip with address 10.0.40.111/24 on vlan data allowing tcp:4353 udp:1026 tcp:443
+2018-01-10T02:22:35.426Z debug: [pid: 25788] [scripts/network.js] create localhost /tm/net/self {"name":"cluster_self_ip","address":"10.0.40.111/24","vlan":"/Common/data","allowService":["tcp:4353","udp:1026","tcp:443"]}
+2018-01-10T02:22:35.695Z debug: [pid: 25788] [scripts/network.js]  {"kind":"tm:net:self:selfstate","name":"cluster_self_ip","partition":"Common","fullPath":"/Common/cluster_self_ip","generation":39,"selfLink":"https://localhost/mgmt/tm/net/self/~Common~cluster_self_ip?ver=13.1.0.1","address":"10.0.40.111/24","addressSource":"from-user","floating":"disabled","inheritedTrafficGroup":"false","trafficGroup":"/Common/traffic-group-local-only","trafficGroupReference":{"link":"https://localhost/mgmt/tm/cm/traffic-group/~Common~traffic-group-local-only?ver=13.1.0.1"},"unit":0,"vlan":"/Common/data","vlanReference":{"link":"https://localhost/mgmt/tm/net/vlan/~Common~data?ver=13.1.0.1"},"allowService":["tcp:443","tcp:4353","udp:1026"]}
+2018-01-10T02:22:35.707Z debug: [pid: 25788] [scripts/network.js]  [{"kind":"tm:net:self:selfstate","name":"cluster_self_ip","partition":"Common","fullPath":"/Common/cluster_self_ip","generation":39,"selfLink":"https://localhost/mgmt/tm/net/self/~Common~cluster_self_ip?ver=13.1.0.1","address":"10.0.40.111/24","addressSource":"from-user","floating":"disabled","inheritedTrafficGroup":"false","trafficGroup":"/Common/traffic-group-local-only","trafficGroupReference":{"link":"https://localhost/mgmt/tm/cm/traffic-group/~Common~traffic-group-local-only?ver=13.1.0.1"},"unit":0,"vlan":"/Common/data","vlanReference":{"link":"https://localhost/mgmt/tm/net/vlan/~Common~data?ver=13.1.0.1"},"allowService":["tcp:443","tcp:4353","udp:1026"]}]
+2018-01-10T02:22:35.709Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.711Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.713Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.715Z info: [pid: 25788] [scripts/network.js] Saving config.
+2018-01-10T02:22:35.724Z debug: [pid: 25788] [scripts/network.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:35.758Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.762Z debug: [pid: 25788] [scripts/network.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:35.786Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.791Z debug: [pid: 25788] [scripts/network.js] list localhost /tm/sys/available
+2018-01-10T02:22:35.861Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.864Z debug: [pid: 25788] [scripts/network.js] list localhost /tm/cm/available
+2018-01-10T02:22:35.905Z debug: [pid: 25788] [scripts/network.js] 
+2018-01-10T02:22:35.908Z debug: [pid: 25788] [scripts/network.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:35.971Z debug: [pid: 25788] [scripts/network.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:22:35.978Z debug: [pid: 25788] [scripts/network.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:22:48.969Z debug: [pid: 25788] [scripts/network.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:23:08.438Z info: [pid: 25961] [scripts/network.js] /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/network.js called with /usr/bin/f5-rest-node /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/network.js -o /var/log/onboard-network.log --log-level debug --host localhost --user admin --password-url file:///config/cloud/openstack/adminPwd   --self-ip name:data_self_ip,address:10.0.40.109/24,vlan:data  
+2018-01-10T02:23:08.506Z info: [pid: 25961] [scripts/network.js] Network setup starting.
+2018-01-10T02:23:08.513Z info: [pid: 25961] [scripts/network.js] Initializing BIG-IP.
+2018-01-10T02:23:08.545Z info: [pid: 25961] [scripts/network.js] Waiting for BIG-IP to be ready.
+2018-01-10T02:23:08.560Z debug: [pid: 25961] [scripts/network.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:08.826Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:08.847Z debug: [pid: 25961] [scripts/network.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:08.943Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:08.952Z debug: [pid: 25961] [scripts/network.js] list localhost /tm/sys/available
+2018-01-10T02:23:08.992Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:08.994Z debug: [pid: 25961] [scripts/network.js] list localhost /tm/cm/available
+2018-01-10T02:23:09.044Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.048Z debug: [pid: 25961] [scripts/network.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:09.105Z debug: [pid: 25961] [scripts/network.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:09.110Z info: [pid: 25961] [scripts/network.js] BIG-IP is ready.
+2018-01-10T02:23:09.112Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.114Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.118Z info: [pid: 25961] [scripts/network.js] Creating self IP data_self_ip with address 10.0.40.109/24 on vlan data allowing default
+2018-01-10T02:23:09.121Z debug: [pid: 25961] [scripts/network.js] create localhost /tm/net/self {"name":"data_self_ip","address":"10.0.40.109/24","vlan":"/Common/data","allowService":"default"}
+2018-01-10T02:23:09.340Z debug: [pid: 25961] [scripts/network.js]  {"kind":"tm:net:self:selfstate","name":"data_self_ip","partition":"Common","fullPath":"/Common/data_self_ip","generation":45,"selfLink":"https://localhost/mgmt/tm/net/self/~Common~data_self_ip?ver=13.1.0.1","address":"10.0.40.109/24","addressSource":"from-user","floating":"disabled","inheritedTrafficGroup":"false","trafficGroup":"/Common/traffic-group-local-only","trafficGroupReference":{"link":"https://localhost/mgmt/tm/cm/traffic-group/~Common~traffic-group-local-only?ver=13.1.0.1"},"unit":0,"vlan":"/Common/data","vlanReference":{"link":"https://localhost/mgmt/tm/net/vlan/~Common~data?ver=13.1.0.1"},"allowService":["default"]}
+2018-01-10T02:23:09.345Z debug: [pid: 25961] [scripts/network.js]  [{"kind":"tm:net:self:selfstate","name":"data_self_ip","partition":"Common","fullPath":"/Common/data_self_ip","generation":45,"selfLink":"https://localhost/mgmt/tm/net/self/~Common~data_self_ip?ver=13.1.0.1","address":"10.0.40.109/24","addressSource":"from-user","floating":"disabled","inheritedTrafficGroup":"false","trafficGroup":"/Common/traffic-group-local-only","trafficGroupReference":{"link":"https://localhost/mgmt/tm/cm/traffic-group/~Common~traffic-group-local-only?ver=13.1.0.1"},"unit":0,"vlan":"/Common/data","vlanReference":{"link":"https://localhost/mgmt/tm/net/vlan/~Common~data?ver=13.1.0.1"},"allowService":["default"]}]
+2018-01-10T02:23:09.347Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.349Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.350Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.352Z info: [pid: 25961] [scripts/network.js] Saving config.
+2018-01-10T02:23:09.357Z debug: [pid: 25961] [scripts/network.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:09.385Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.395Z debug: [pid: 25961] [scripts/network.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:09.415Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.423Z debug: [pid: 25961] [scripts/network.js] list localhost /tm/sys/available
+2018-01-10T02:23:09.460Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.466Z debug: [pid: 25961] [scripts/network.js] list localhost /tm/cm/available
+2018-01-10T02:23:09.512Z debug: [pid: 25961] [scripts/network.js] 
+2018-01-10T02:23:09.516Z debug: [pid: 25961] [scripts/network.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:09.568Z debug: [pid: 25961] [scripts/network.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:09.574Z debug: [pid: 25961] [scripts/network.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:23:20.945Z debug: [pid: 25961] [scripts/network.js]  {"kind":"tm:sys:config:savestate","command":"save"}

@@ -1,0 +1,59 @@
+2018-01-10T02:23:41.156Z info: [pid: 26088] [scripts/cluster.js] /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/cluster.js called with /usr/bin/f5-rest-node /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/cluster.js -o /var/log/onboard-cluster.log --log-level debug --host 192.168.107.18 --user admin --password-url file:///config/cloud/openstack/adminPwd --port 443 --create-group --device-group Sync --sync-type sync-failover --device host-192-168-107-18.openstacklocal --network-failover --auto-sync --save-on-auto-sync
+2018-01-10T02:23:41.214Z info: [pid: 26088] [scripts/cluster.js] Cluster starting.
+2018-01-10T02:23:41.226Z info: [pid: 26088] [scripts/cluster.js] Initializing BIG-IP.
+2018-01-10T02:23:41.246Z info: [pid: 26088] [scripts/cluster.js] Waiting for BIG-IP to be ready.
+2018-01-10T02:23:41.256Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/echo-js/available
+2018-01-10T02:23:42.173Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.187Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:42.229Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.231Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/available
+2018-01-10T02:23:42.287Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.289Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/cm/available
+2018-01-10T02:23:42.328Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.333Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/mcp-state/
+2018-01-10T02:23:42.396Z debug: [pid: 26088] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:42.400Z info: [pid: 26088] [scripts/cluster.js] BIG-IP is ready.
+2018-01-10T02:23:42.408Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/echo-js/available
+2018-01-10T02:23:42.403Z info: [pid: 26088] [scripts/cluster.js] Creating group Sync.
+2018-01-10T02:23:42.432Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.436Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:42.456Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.459Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/available
+2018-01-10T02:23:42.519Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.523Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/cm/available
+2018-01-10T02:23:42.557Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.561Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/mcp-state/
+2018-01-10T02:23:42.617Z debug: [pid: 26088] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:42.622Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/echo-js/available
+2018-01-10T02:23:42.656Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.659Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:42.680Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.693Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/available
+2018-01-10T02:23:42.755Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.760Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/cm/available
+2018-01-10T02:23:42.804Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:42.808Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/mcp-state/
+2018-01-10T02:23:42.883Z debug: [pid: 26088] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:42.885Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/cm/device-group/
+2018-01-10T02:23:42.955Z debug: [pid: 26088] [lib/bigIp.js]  [{"kind":"tm:cm:device-group:device-groupstate","name":"device_trust_group","partition":"Common","fullPath":"/Common/device_trust_group","generation":1,"selfLink":"https://localhost/mgmt/tm/cm/device-group/~Common~device_trust_group?ver=13.1.0.1","asmSync":"disabled","autoSync":"enabled","fullLoadOnSync":"false","incrementalConfigSyncSizeMax":1024,"networkFailover":"disabled","saveOnAutoSync":"false","type":"sync-only","devicesReference":{"link":"https://localhost/mgmt/tm/cm/device-group/~Common~device_trust_group/devices?ver=13.1.0.1","isSubcollection":true}},{"kind":"tm:cm:device-group:device-groupstate","name":"gtm","partition":"Common","fullPath":"/Common/gtm","generation":1,"selfLink":"https://localhost/mgmt/tm/cm/device-group/~Common~gtm?ver=13.1.0.1","asmSync":"disabled","autoSync":"disabled","fullLoadOnSync":"false","incrementalConfigSyncSizeMax":1024,"networkFailover":"disabled","saveOnAutoSync":"false","type":"sync-only","devicesReference":{"link":"https://localhost/mgmt/tm/cm/device-group/~Common~gtm/devices?ver=13.1.0.1","isSubcollection":true}}]
+2018-01-10T02:23:42.960Z debug: [pid: 26088] [lib/bigIp.js] create 192.168.107.18 /tm/cm/device-group/ {"name":"Sync","type":"sync-failover","devices":["host-192-168-107-18.openstacklocal"],"autoSync":"enabled","fullLoadOnSync":false,"asmSync":"disabled","saveOnAutoSync":true,"networkFailover":"enabled"}
+2018-01-10T02:23:45.961Z debug: [pid: 26088] [lib/bigIp.js]  {"kind":"tm:cm:device-group:device-groupstate","name":"Sync","partition":"Common","fullPath":"/Common/Sync","generation":52,"selfLink":"https://localhost/mgmt/tm/cm/device-group/~Common~Sync?ver=13.1.0.1","asmSync":"disabled","autoSync":"enabled","fullLoadOnSync":"false","incrementalConfigSyncSizeMax":1024,"networkFailover":"enabled","saveOnAutoSync":"true","type":"sync-failover","devicesReference":{"link":"https://localhost/mgmt/tm/cm/device-group/~Common~Sync/devices?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:23:45.967Z debug: [pid: 26088] [scripts/cluster.js]  {"kind":"tm:cm:device-group:device-groupstate","name":"Sync","partition":"Common","fullPath":"/Common/Sync","generation":52,"selfLink":"https://localhost/mgmt/tm/cm/device-group/~Common~Sync?ver=13.1.0.1","asmSync":"disabled","autoSync":"enabled","fullLoadOnSync":"false","incrementalConfigSyncSizeMax":1024,"networkFailover":"enabled","saveOnAutoSync":"true","type":"sync-failover","devicesReference":{"link":"https://localhost/mgmt/tm/cm/device-group/~Common~Sync/devices?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:23:45.995Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/echo-js/available
+2018-01-10T02:23:45.970Z debug: [pid: 26088] [scripts/cluster.js] 
+2018-01-10T02:23:45.972Z debug: [pid: 26088] [scripts/cluster.js] 
+2018-01-10T02:23:45.974Z debug: [pid: 26088] [scripts/cluster.js] 
+2018-01-10T02:23:45.975Z info: [pid: 26088] [scripts/cluster.js] Waiting for BIG-IP to be active.
+2018-01-10T02:23:46.044Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:46.071Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:46.093Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:46.098Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/available
+2018-01-10T02:23:46.190Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:46.203Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/cm/available
+2018-01-10T02:23:46.259Z debug: [pid: 26088] [lib/bigIp.js] 
+2018-01-10T02:23:46.271Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/sys/mcp-state/
+2018-01-10T02:23:46.358Z debug: [pid: 26088] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:46.372Z debug: [pid: 26088] [lib/bigIp.js] list 192.168.107.18 /tm/cm/failover-status
+2018-01-10T02:23:46.438Z debug: [pid: 26088] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"green"},"https://localhost/mgmt/tm/cm/failoverStatus/0/details":{"nestedStats":{"entries":{"https://localhost/mgmt/tm/cm/failoverStatus/0/details/0":{"nestedStats":{"entries":{"details":{"description":"active for /Common/traffic-group-1"}}}}}}},"status":{"description":"ACTIVE"},"summary":{"description":"1/1 active"}}}}}}
+2018-01-10T02:23:46.446Z debug: [pid: 26088] [scripts/cluster.js] 
+2018-01-10T02:23:46.442Z debug: [pid: 26088] [lib/bigIp.js] Current state: ACTIVE
