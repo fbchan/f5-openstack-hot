@@ -325,11 +325,6 @@ resources:
       timeout: 1800
   wait_handle_onboard_cluster:
     type: OS::Heat::WaitConditionHandle
-  floating_ip:
-    type: OS::Neutron::FloatingIP
-    properties:
-      floating_network: { get_param: external_network }
-      port_id: {get_param: [mgmt_network_portids, {get_param: bigip_instance_num}]}
   network_vlan_port:
     type: OS::Neutron::Port
     properties:
@@ -468,6 +463,3 @@ outputs:
   bigip_instance_addresses:
     description: Cluster and Data SelfIPs of the BIG-IP instance
     value: { get_attr: [bigip_instance, addresses]}
-  bigip_instance_floating_ip:
-    description: Management Floating IP of the BIG-IP Instance
-    value: { get_attr: [floating_ip, floating_ip_address] }
