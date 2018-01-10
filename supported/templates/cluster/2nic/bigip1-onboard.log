@@ -1,0 +1,1968 @@
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+waiting for cloud libs install to complete
+*****ONBOARD STARTING******
+customerId:a1c7610901ce3f61c8ed19ef4ed483a2fd0ccfaf369964e1de766d5212012c169f751d247bc145b40b210b223aca79b7fb9f22913e3e48edced652a4726faf61,deploymentId:feb7fa5badb2e408207924916d63accc16778dcef32a6d6da9c1429b988cef154a1b8de393b30a982f77fd6394c2a630e72c58194e387be367ce93847c2b9e12,templateName:sup-f5_bigip_cluster_2_nic.yaml,templateVersion:3.0.0,region:None,bigIpVersion:13.1.0.1.0.0.8.,licenseType:BYOL,cloudLibsVersion:v3.5.0,cloudName:openstack
+Starting Onboard call
+2018-01-10T02:16:50.809Z info: [pid: 11473] [scripts/onboard.js] /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/onboard.js called with /usr/bin/f5-rest-node /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/onboard.js --metrics customerId:a1c7610901ce3f61c8ed19ef4ed483a2fd0ccfaf369964e1de766d5212012c169f751d247bc145b40b210b223aca79b7fb9f22913e3e48edced652a4726faf61,deploymentId:feb7fa5badb2e408207924916d63accc16778dcef32a6d6da9c1429b988cef154a1b8de393b30a982f77fd6394c2a630e72c58194e387be367ce93847c2b9e12,templateName:sup-f5_bigip_cluster_2_nic.yaml,templateVersion:3.0.0,region:None,bigIpVersion:13.1.0.1.0.0.8.,licenseType:BYOL,cloudLibsVersion:v3.5.0,cloudName:openstack --add-on bigip2addonKey1 --add-on bigip1addonKey2 --add-on bigip2addonKey3 --host localhost --hostname host-192-168-107-17.openstacklocal --license PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP --log-level debug --module ltm:nominal --ntp 0.us.pool.ntp.org --ntp 1.us.pool.ntp.org --output /var/log/onboard.log --port 443 --set-root-password ******* --tz UTC --user admin --password-url file:///config/cloud/openstack/adminPwd
+2018-01-10T02:16:50.813Z info: [pid: 11473] [scripts/onboard.js] /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/onboard.js called with /usr/bin/f5-rest-node /config/cloud/openstack/node_modules/f5-cloud-libs/scripts/onboard.js --metrics customerId:a1c7610901ce3f61c8ed19ef4ed483a2fd0ccfaf369964e1de766d5212012c169f751d247bc145b40b210b223aca79b7fb9f22913e3e48edced652a4726faf61,deploymentId:feb7fa5badb2e408207924916d63accc16778dcef32a6d6da9c1429b988cef154a1b8de393b30a982f77fd6394c2a630e72c58194e387be367ce93847c2b9e12,templateName:sup-f5_bigip_cluster_2_nic.yaml,templateVersion:3.0.0,region:None,bigIpVersion:13.1.0.1.0.0.8.,licenseType:BYOL,cloudLibsVersion:v3.5.0,cloudName:openstack --add-on bigip2addonKey1 --add-on bigip1addonKey2 --add-on bigip2addonKey3 --host localhost --hostname host-192-168-107-17.openstacklocal --license PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP --log-level debug --module ltm:nominal --ntp 0.us.pool.ntp.org --ntp 1.us.pool.ntp.org --output /var/log/onboard.log --port 443 --set-root-password ******* --tz UTC --user admin --password-url file:///config/cloud/openstack/adminPwd
+2018-01-10T02:16:50.983Z info: [pid: 11473] [scripts/onboard.js] Onboard starting.
+2018-01-10T02:16:50.983Z info: [pid: 11473] [scripts/onboard.js] Onboard starting.
+2018-01-10T02:16:50.996Z info: [pid: 11473] [scripts/onboard.js] Initializing BIG-IP.
+2018-01-10T02:16:50.997Z info: [pid: 11473] [scripts/onboard.js] Initializing BIG-IP.
+2018-01-10T02:16:51.010Z info: [pid: 11473] [scripts/onboard.js] Waiting for BIG-IP to be ready.
+2018-01-10T02:16:51.011Z info: [pid: 11473] [scripts/onboard.js] Waiting for BIG-IP to be ready.
+2018-01-10T02:16:51.021Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:16:51.022Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:16:51.199Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left:
+2018-01-10T02:16:51.202Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:16:51.205Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left: 90
+2018-01-10T02:16:51.201Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left:
+2018-01-10T02:16:51.203Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:16:51.205Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left: 90
+2018-01-10T02:17:01.210Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:01.211Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:01.367Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left:
+2018-01-10T02:17:01.368Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left:
+2018-01-10T02:17:01.368Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:01.403Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left: 89
+2018-01-10T02:17:01.401Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:01.403Z verbose: [pid: 11473] [lib/util.js] tryUntil error: <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>BIG-IP� - Configuration Utility restarting...</title>
+        <link rel="stylesheet" type="text/css" href="/xui/common/css/tomcat_unavailable.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/xui/common/images/favicon.ico">
+        <script type="text/javascript" src="/xui/common/scripts/jquery_1.3.2.js"></script>
+        <script language="Javascript">
+            if (window.location != window.top.location) {
+                var url = getUrlToPing();
+                window.top.location.replace(url);
+            }
+
+            var timerID = 0;
+            var tStart  = null;
+
+            $(document).ready(function() {
+                $('#timestamp').text(Date().split('GMT')[0]);
+                var ipOrHostname = window.location.hostname;
+                var isIpv6 = ((ipOrHostname.indexOf(':') > -1) && (ipOrHostname.indexOf('.') === -1));
+                var isIpv4 = function(ipOrHostname) {
+                    var segments = ipOrHostname.split('.');
+                    if(segments.length === 4) {
+                        return segments.every(function(segment) {
+                            return ((/^[0-9]+$/.test(segment)) && (segment < 256));
+                        });
+                    }
+                    return false;
+                }
+                if (isIpv6 || isIpv4(ipOrHostname)) {
+                    $('#hostname-label').remove();
+                    $('#hostname').remove();
+                    $('#ip').text(ipOrHostname);
+                } else {
+                    $('#hostname').text(ipOrHostname);
+                    $('#ip-label').remove();
+                    $('#ip').remove();
+                }
+                startTimer();
+                setTimeout(pingDevice, 1000);
+            });
+
+            function startTimer() {
+                tStart = new Date();
+                $('#timer').text('0:00');
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function updateTimer() {
+                var tDate = new Date();
+                var tDiff = tDate.getTime() - tStart.getTime();
+                tDate.setTime(tDiff);
+                var separator = tDate.getSeconds() < 10 ? ':0' : ':';
+                $('#timer').text(tDate.getMinutes() + separator + tDate.getSeconds());
+                timerID = setTimeout("updateTimer()", 1000);
+            }
+
+            function pingDevice() {
+                var url = getUrlToPing();
+                var pingTimer = 3000;
+                var responseObj = $.ajax({
+                    url: url,
+                    timeout: 2000,
+                    cache: false,
+                    beforeSend: function(requestObj) {
+                        requestObj.setRequestHeader("F5-Automated-Request", "true");
+                    },
+                    // Device is online
+                    success: function(response) {
+                        $('#status1').removeClass('loadingicon').addClass('greencheckicon');
+                        $('#status2').show();
+                        window.location.replace(url);
+                    },
+                    // Waiting to establish a connection
+                    error: function(response) {
+                        setTimeout(pingDevice,pingTimer);
+                    }
+                });
+            }
+
+            function getUrlToPing() {
+                if (window.location.toString().indexOf('/tmui/Control/form') == -1) {
+                    return window.location.toString();
+                }
+                else if (document.referrer) {
+                    return document.referrer;
+                }
+                else {
+                    if (window.parent && window.parent.Xui) {
+                        return window.parent.path_pingUrl;
+                    }
+                    else {
+                        return '/tmui/tmui/overview/welcome/introduction.jsp';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="window">
+                <div id="banner">
+                    <div id="logo">
+                        <img src="/xui/common/images/logo_f5.png" alt="F5 Networks Logo"/>
+                    </div>
+                    <h1>BIG-IP Configuration Utility</h1>
+                    <h2>F5 Networks, Inc</h2>
+                </div>
+                <div id="sidebar">
+                    <div id="deviceinfo">
+                        <label id="hostname-label">Hostname</label>
+                        <p id="hostname"></p>
+                        <label id="ip-label">IP Address</label>
+                        <p id="ip"></p>
+                    </div>
+                </div>
+                <div id="contentframe">
+                    <h1>Please wait while the Configuration Utility starts.</h1>
+                    <p id="timestamp"></p>
+                    <p><strong>Elapsed Time:</strong> <span id="timer"></span></p>
+                    <p id="status1" class="loadingicon">
+                        <span class="goodtext">Starting web server</span><br>
+                        <span class="bold">Please do not reboot your device.</span> The device is starting services required for the communication with the configuration utility.<br>
+                        This process takes approximately 1-2 minutes.
+                    </p>
+                    <p id="status2" class="greencheckicon" style="display: none;">
+                        <span class="goodtext">Startup complete</span><br>
+                        The configuration utility is ready for use. Input your credentials on the left and click the "Log in" button to continue.
+                    </p>
+
+                    <!-- Preload images -->
+                    <div style="display: none;">
+                        <img src="/xui/common/images/icon_greencheck.gif">
+                        <img src="/xui/common/images/icon_loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+ tries left: 89
+2018-01-10T02:17:11.404Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:11.405Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:11.472Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left:
+2018-01-10T02:17:11.472Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left:
+2018-01-10T02:17:11.473Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:11.474Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left: 88
+2018-01-10T02:17:11.473Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:11.474Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left: 88
+2018-01-10T02:17:21.475Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:21.476Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:25.355Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left:
+2018-01-10T02:17:25.355Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:25.356Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left: 87
+2018-01-10T02:17:25.355Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left:
+2018-01-10T02:17:25.355Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:25.356Z verbose: [pid: 11473] [lib/util.js] tryUntil error: URI path /mgmt/shared/echo-js/available not registered.  Please verify URI is supported and wait for /available suffix to be responsive. tries left: 87
+2018-01-10T02:17:35.360Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:35.361Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:41.229Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:17:41.230Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:17:41.234Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:41.255Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 86
+2018-01-10T02:17:41.239Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:41.258Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 86
+2018-01-10T02:17:51.264Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:51.265Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:17:54.667Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:17:54.668Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:17:54.672Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:17:54.673Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:17:55.320Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:17:55.320Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:17:55.322Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:17:55.323Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:17:55.375Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:17:55.377Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:17:55.380Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:55.395Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 85
+2018-01-10T02:17:55.384Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:17:55.399Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 85
+2018-01-10T02:18:05.403Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:05.407Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:05.653Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:05.654Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:05.657Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:05.657Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:05.686Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:05.686Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:05.742Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:05.745Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:05.829Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:18:05.830Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:18:05.830Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:18:05.834Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 84
+2018-01-10T02:18:05.831Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:18:05.835Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 84
+2018-01-10T02:18:15.837Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:15.838Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:16.019Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:16.020Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:16.028Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:16.028Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:16.070Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:16.072Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:16.080Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:16.082Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:16.123Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:18:16.124Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left:
+2018-01-10T02:18:16.125Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:18:16.128Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 83
+2018-01-10T02:18:16.126Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:18:16.129Z verbose: [pid: 11473] [lib/util.js] tryUntil error: Public URI path not registered. Please see /var/log/restjavad.0.log and /var/log/restnoded/restnoded.log for details. tries left: 83
+2018-01-10T02:18:26.132Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:26.133Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:29.417Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.418Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.421Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:29.422Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:29.450Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.452Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.457Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:29.457Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:29.498Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.499Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.503Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:29.503Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:29.583Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.584Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.586Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:29.587Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:29.767Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:29.769Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:29.771Z info: [pid: 11473] [scripts/onboard.js] BIG-IP is ready.
+2018-01-10T02:18:29.772Z info: [pid: 11473] [scripts/onboard.js] BIG-IP is ready.
+2018-01-10T02:18:29.774Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:29.776Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:29.777Z info: [pid: 11473] [scripts/onboard.js] Setting rootPassword.
+2018-01-10T02:18:29.783Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:29.783Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:29.775Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:29.776Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:29.778Z info: [pid: 11473] [scripts/onboard.js] Setting rootPassword.
+2018-01-10T02:18:29.832Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.832Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.835Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:29.836Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:29.860Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.863Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.867Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:29.867Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:29.909Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.916Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.919Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:29.919Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:29.950Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.950Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:29.953Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:29.960Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:30.018Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:30.019Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:30.022Z debug: [pid: 11473] [lib/bigIp.js] create localhost /shared/authn/root {"oldPassword":"********","newPassword":"********"}
+2018-01-10T02:18:30.023Z debug: [pid: 11473] [lib/bigIp.js] create localhost /shared/authn/root {"oldPassword":"********","newPassword":"********"}
+2018-01-10T02:18:30.986Z debug: [pid: 11473] [lib/bigIp.js]  {"generation":0,"lastUpdateMicros":0}
+2018-01-10T02:18:31.001Z debug: [pid: 11473] [lib/bigIp.js]  {"generation":0,"lastUpdateMicros":0}
+2018-01-10T02:18:31.006Z debug: [pid: 11473] [scripts/onboard.js]  {"generation":0,"lastUpdateMicros":0}
+2018-01-10T02:18:31.007Z debug: [pid: 11473] [scripts/onboard.js]  {"generation":0,"lastUpdateMicros":0}
+2018-01-10T02:18:31.008Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:31.009Z info: [pid: 11473] [scripts/onboard.js] Setting up NTP.
+2018-01-10T02:18:31.014Z debug: [pid: 11473] [lib/bigIp.js] modify localhost /tm/sys/ntp {"servers":["0.us.pool.ntp.org","1.us.pool.ntp.org"],"timezone":"UTC"}
+2018-01-10T02:18:31.015Z debug: [pid: 11473] [lib/bigIp.js] modify localhost /tm/sys/ntp {"servers":["0.us.pool.ntp.org","1.us.pool.ntp.org"],"timezone":"UTC"}
+2018-01-10T02:18:31.008Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:31.010Z info: [pid: 11473] [scripts/onboard.js] Setting up NTP.
+2018-01-10T02:18:33.216Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:ntp:ntpstate","selfLink":"https://localhost/mgmt/tm/sys/ntp?ver=13.1.0.1","servers":["0.us.pool.ntp.org","1.us.pool.ntp.org"],"timezone":"UTC","restrictReference":{"link":"https://localhost/mgmt/tm/sys/ntp/restrict?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:18:33.218Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:ntp:ntpstate","selfLink":"https://localhost/mgmt/tm/sys/ntp?ver=13.1.0.1","servers":["0.us.pool.ntp.org","1.us.pool.ntp.org"],"timezone":"UTC","restrictReference":{"link":"https://localhost/mgmt/tm/sys/ntp/restrict?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:18:33.221Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:ntp:ntpstate","selfLink":"https://localhost/mgmt/tm/sys/ntp?ver=13.1.0.1","servers":["0.us.pool.ntp.org","1.us.pool.ntp.org"],"timezone":"UTC","restrictReference":{"link":"https://localhost/mgmt/tm/sys/ntp/restrict?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:18:33.223Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:ntp:ntpstate","selfLink":"https://localhost/mgmt/tm/sys/ntp?ver=13.1.0.1","servers":["0.us.pool.ntp.org","1.us.pool.ntp.org"],"timezone":"UTC","restrictReference":{"link":"https://localhost/mgmt/tm/sys/ntp/restrict?ver=13.1.0.1","isSubcollection":true}}
+2018-01-10T02:18:33.224Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:33.230Z info: [pid: 11473] [scripts/onboard.js] Setting hostname to host-192-168-107-17.openstacklocal
+2018-01-10T02:18:33.236Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:33.237Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:33.229Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:33.231Z info: [pid: 11473] [scripts/onboard.js] Setting hostname to host-192-168-107-17.openstacklocal
+2018-01-10T02:18:33.279Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.282Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.290Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:33.290Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:33.326Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.327Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.330Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:33.331Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:33.374Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.374Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.384Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:33.384Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:33.456Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.457Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.462Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:33.467Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:33.537Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:33.540Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:33.548Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/device
+2018-01-10T02:18:33.548Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/device
+2018-01-10T02:18:33.613Z debug: [pid: 11473] [lib/bigIp.js]  [{"kind":"tm:cm:device:devicestate","name":"bigip1","partition":"Common","fullPath":"/Common/bigip1","generation":8,"selfLink":"https://localhost/mgmt/tm/cm/device/~Common~bigip1?ver=13.1.0.1","baseMac":"fa:16:3e:9f:ef:23","build":"0.0.8","cert":"/Common/dtdi.crt","certReference":{"link":"https://localhost/mgmt/tm/cm/cert/~Common~dtdi.crt?ver=13.1.0.1"},"chassisId":"a45398d8-8f6b-6b45-e77f24cc03d8","chassisType":"individual","configsyncIp":"none","edition":"Point Release 1","failoverState":"active","haCapacity":0,"hostname":"host-192-168-107-17.openstacklocal","key":"/Common/dtdi.key","keyReference":{"link":"https://localhost/mgmt/tm/cm/key/~Common~dtdi.key?ver=13.1.0.1"},"managementIp":"192.168.107.17","marketingName":"BIG-IP Virtual Edition","mirrorIp":"any6","mirrorSecondaryIp":"any6","multicastIp":"any6","multicastPort":0,"platformId":"Z100","product":"BIG-IP","selfDevice":"true","timeZone":"UTC","version":"13.1.0.1"}]
+2018-01-10T02:18:33.615Z debug: [pid: 11473] [lib/bigIp.js]  [{"kind":"tm:cm:device:devicestate","name":"bigip1","partition":"Common","fullPath":"/Common/bigip1","generation":8,"selfLink":"https://localhost/mgmt/tm/cm/device/~Common~bigip1?ver=13.1.0.1","baseMac":"fa:16:3e:9f:ef:23","build":"0.0.8","cert":"/Common/dtdi.crt","certReference":{"link":"https://localhost/mgmt/tm/cm/cert/~Common~dtdi.crt?ver=13.1.0.1"},"chassisId":"a45398d8-8f6b-6b45-e77f24cc03d8","chassisType":"individual","configsyncIp":"none","edition":"Point Release 1","failoverState":"active","haCapacity":0,"hostname":"host-192-168-107-17.openstacklocal","key":"/Common/dtdi.key","keyReference":{"link":"https://localhost/mgmt/tm/cm/key/~Common~dtdi.key?ver=13.1.0.1"},"managementIp":"192.168.107.17","marketingName":"BIG-IP Virtual Edition","mirrorIp":"any6","mirrorSecondaryIp":"any6","multicastIp":"any6","multicastPort":0,"platformId":"Z100","product":"BIG-IP","selfDevice":"true","timeZone":"UTC","version":"13.1.0.1"}]
+2018-01-10T02:18:33.617Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/cm/device {"command":"mv","name":"bigip1","target":"host-192-168-107-17.openstacklocal"}
+2018-01-10T02:18:33.618Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/cm/device {"command":"mv","name":"bigip1","target":"host-192-168-107-17.openstacklocal"}
+2018-01-10T02:18:33.803Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:device:mvstate","command":"mv","name":"bigip1","target":"host-192-168-107-17.openstacklocal"}
+2018-01-10T02:18:33.806Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:device:mvstate","command":"mv","name":"bigip1","target":"host-192-168-107-17.openstacklocal"}
+2018-01-10T02:18:33.819Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:33.821Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:33.872Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.875Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.879Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:33.890Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:33.942Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.943Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:33.951Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:33.952Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:34.050Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:34.060Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:34.073Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:34.074Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:34.134Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:34.139Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:34.141Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:34.141Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:34.260Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:34.263Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:34.265Z debug: [pid: 11473] [lib/bigIp.js] modify localhost /tm/sys/global-settings {"hostname":"host-192-168-107-17.openstacklocal"}
+2018-01-10T02:18:34.266Z debug: [pid: 11473] [lib/bigIp.js] modify localhost /tm/sys/global-settings {"hostname":"host-192-168-107-17.openstacklocal"}
+2018-01-10T02:18:36.593Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"enabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:36.595Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"enabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:36.599Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"enabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:36.603Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"enabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:36.605Z info: [pid: 11473] [scripts/onboard.js] Setting global settings.
+2018-01-10T02:18:36.619Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:36.620Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:36.606Z info: [pid: 11473] [scripts/onboard.js] Setting global settings.
+2018-01-10T02:18:36.666Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.667Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.670Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:36.671Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:36.701Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.702Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.705Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:36.706Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:36.828Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.829Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.837Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:36.838Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:36.920Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.921Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:36.928Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:36.934Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:37.063Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:37.070Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:37.074Z debug: [pid: 11473] [lib/bigIp.js] modify localhost /tm/sys/global-settings {"guiSetup":"disabled"}
+2018-01-10T02:18:37.077Z debug: [pid: 11473] [lib/bigIp.js] modify localhost /tm/sys/global-settings {"guiSetup":"disabled"}
+2018-01-10T02:18:39.222Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"disabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:39.224Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"disabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:39.227Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"disabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:39.228Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:global-settings:global-settingsstate","selfLink":"https://localhost/mgmt/tm/sys/global-settings?ver=13.1.0.1","awsApiMaxConcurrency":1,"consoleInactivityTimeout":0,"customAddr":"none","failsafeAction":"go-offline-restart-tm","fileBlacklistPathPrefix":"{/shared/3dns/} {/shared/bin/} {/shared/core/} {/appdata/core/} {/shared/datasync/} {/shared/em/} {/shared/GeoIP/} {/shared/images/} {/shared/lib/} {/shared/lib64/} {/shared/log/} {/shared/lost+found/} {/shared/mgmt/} {/shared/nfb/} {/shared/ssh/} {/shared/statsd/} {/shared/tmstat/} {/shared/vadc/} {/config/aaa/} {/config/big3d/} {/config/bigip/} {/config/filestore/} {/config/gtm/} {/config/httpd/} {/config/ntp.conf} {/config/rndc.key} {/config/ssh/} {/config/ssl/}","fileBlacklistReadOnlyPathPrefix":"{/etc/shadow}","fileLocalPathPrefix":"{/shared/} {/tmp/}","fileWhitelistPathPrefix":"{/var/local/scf} {/tmp/} {/shared/} {/config/} {/usr/share/aws/}","guiSecurityBanner":"enabled","guiSecurityBannerText":"Welcome to the BIG-IP Configuration Utility.\n\nLog in with your username and password using the fields on the left.","guiSetup":"disabled","hostAddrMode":"management","hostname":"host-192-168-107-17.openstacklocal","lcdDisplay":"enabled","ledLocator":"disabled","mgmtDhcp":"enabled","netReboot":"disabled","passwordPrompt":"********","quietBoot":"enabled","usernamePrompt":"Username"}
+2018-01-10T02:18:39.231Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:39.232Z info: [pid: 11473] [scripts/onboard.js] Licensing.
+2018-01-10T02:18:40.445Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:40.446Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:39.231Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:18:39.233Z info: [pid: 11473] [scripts/onboard.js] Licensing.
+2018-01-10T02:18:40.488Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.492Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.498Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:40.503Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:40.544Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.545Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.553Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:40.555Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:40.678Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.679Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.688Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:40.691Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:40.799Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.800Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:40.810Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:40.810Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:40.939Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:40.946Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:40.951Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/shared/licensing/registration
+2018-01-10T02:18:40.952Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/shared/licensing/registration
+2018-01-10T02:18:40.995Z debug: [pid: 11473] [lib/bigIp.js]  {"generation":0,"lastUpdateMicros":0}
+2018-01-10T02:18:40.996Z debug: [pid: 11473] [lib/bigIp.js]  {"generation":0,"lastUpdateMicros":0}
+2018-01-10T02:18:41.003Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:41.004Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:18:41.036Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.052Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:41.046Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.053Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:18:41.091Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.091Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.097Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:41.097Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:18:41.160Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.161Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.165Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:41.166Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:18:41.222Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.222Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:18:41.228Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:41.230Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:18:41.334Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:41.337Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:18:41.341Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:18:41.342Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:18:56.102Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:18:56.111Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:18:56.117Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/license {"command":"install","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","addOnKeys":["bigip2addonKey1","bigip1addonKey2","bigip2addonKey3"]}
+2018-01-10T02:18:56.119Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/license {"command":"install","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","addOnKeys":["bigip2addonKey1","bigip1addonKey2","bigip2addonKey3"]}
+2018-01-10T02:20:10.690Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:POST  tries left:
+2018-01-10T02:20:10.690Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:POST  tries left:
+2018-01-10T02:20:10.691Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:20:10.693Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:POST  tries left: 5
+2018-01-10T02:20:10.692Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:20:10.694Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:POST  tries left: 5
+2018-01-10T02:20:20.699Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:20:20.700Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:20:20.846Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:20.848Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:20.855Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:20:20.857Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:20:20.894Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:20.896Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:20.903Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:20:20.904Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:20:28.153Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:28.155Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:28.160Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:20:28.161Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:20:28.220Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:28.221Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:28.225Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:20:28.226Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:20:28.323Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:20:28.329Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:20:28.355Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 90
+2018-01-10T02:20:28.357Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 90
+2018-01-10T02:20:38.362Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:20:38.363Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:20:38.405Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:38.406Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:38.410Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:20:38.411Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:20:38.444Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:38.445Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:20:38.450Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:20:38.451Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:21:40.801Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:GET  tries left:
+2018-01-10T02:21:40.813Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:GET  tries left:
+2018-01-10T02:21:40.818Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:21:40.828Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:GET  tries left: 89
+2018-01-10T02:21:40.820Z verbose: [pid: 11473] [lib/util.js] Max tries reached.
+2018-01-10T02:21:40.837Z verbose: [pid: 11473] [lib/util.js] tryUntil error: remoteSender:127.0.0.1, method:GET  tries left: 89
+2018-01-10T02:21:50.913Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:21:50.922Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:21:51.344Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:21:51.346Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:21:51.357Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:21:51.358Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:21:51.396Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:21:51.396Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:21:51.401Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:21:51.402Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:07.404Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.404Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.405Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:07.406Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:07.555Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.555Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.556Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:07.557Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:07.620Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:22:07.621Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:22:07.624Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/shared/licensing/registration
+2018-01-10T02:22:07.625Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/shared/licensing/registration
+2018-01-10T02:22:07.714Z debug: [pid: 11473] [lib/bigIp.js]  {"vendor":"F5 Networks, Inc.","licensedDateTime":"2018-01-09T00:00:00-08:00","licensedVersion":"13.1.0","licenseEndDateTime":"2018-02-24T00:00:00-08:00","licenseStartDateTime":"2018-01-08T00:00:00-08:00","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","dossier":"1286c57cd91225fa98d12e1fa2e1a70d0a162d7dec4846e4b34abc99b2fd1e29b924813304ad629468fda48589c5ea7ae0d41f8843a9dbbce9d28bef43eaf2d15c64b70a89842ea3606b2e35231a80e2c3b216aa668bf9c5701dd50eebf11d4626b0e664d695a1fc52dcaf3f1223a7a66e075e5e1e82a2","authorization":"c4cd1aec31ed3d3553dcf0b3489a440c229594bffffa168b28d9d1448f627adfb6fdea50f38ce18eca3ecbf468e0ff42a0f9801df4950d8a77994f207592a36191d70957287885162f721669df6b2578ce7da4171096646638a2e76718f3380e8faa0015698c320cd899db06ddc2fe46a61ddb0faba9029ada1a765eb94b8948dcfe96ea0fbe195de2c5e42b3f8349ec757da0124f5cea05265c2d0fa4b74867cdcbd0047fc7d9e8bb4541996b31a8fd2178ecc8cf5e289411dc6ae5c6c3fbab0b1201eb17745f8cbaf41bea19e9e7537f75a7293a9e78d03387e26645cab6d4a9db87503642ac95431023a700a80937da3aba2d50fe1644c542260b00844b20","usage":"Evaluation","platformId":"Z100k","authVers":"5b","serviceCheckDateTime":"2018-01-08T00:00:00-08:00","machineId":"7f2b61c9-a4ef-48d5-903d-19379974db80","exclusivePlatform":["Z100","Z100A","Z100AzureCloud","Z100GoogleCloud","Z100H","Z100K","Z100x"],"activeModules":["APM, Base, VE GBB (500 CCU, 2500 Access Sessions)|WBGMSRE-SDTPEYP|Anti-Virus Checks|Base Endpoint Security Checks|Firewall Checks|Network Access|Secure Virtual Keyboard|APM, Web Application|Machine Certificate Checks|Protected Workspace|Remote Desktop|App Tunnel","Best Bundle, VE-3G|BHOAEMM-MZQCJBK|SSL, Forward Proxy, VE|50 CCU, 200 Access Sessions|Rate Shaping|DNSSEC|GTM Licensed Objects, Unlimited|DNS Licensed Objects, Unlimited|DNS Rate Fallback, 250K|GTM Rate Fallback, 250K|GTM Rate, 250K|DNS Rate Limit, 250K QPS|Routing Bundle, VE|ASM, VE|DNS-GTM, Base, 3Gbps|SSL, VE|Max Compression, VE|AFM, VE|CGN, BIG-IP VE, AFM ONLY|PSM, VE","PEM, ADD-VE, 3G|XFKYYJW-UBNWLOQ"],"optionalModules":["Advanced Protocols, VE","APC-VE, Introductory","APC-VE, Introductory to Medium Upgrade","APC-VE, Medium","App Mode (TMSH Only, No Root/Bash)","Best, 3 Gbps -5 Gbps Upgrade","BIG-IP VE, Multicast Routing","CGN, ADD-VE, 3G","Concurrent Users and Access Sessions, VE","DataSafe, VE-3G","DNS and GTM (250 QPS), VE","External Interface and Network HSM, VE","FIPS 140-2 Level 1, BIG-IP VE-1G to 10G","IP Intelligence, 3Yr, VE-1G/VE-3G/VE-5G","PEM URL Filtering, 1Yr, VE-1G, 3G, 5G","PEM URL Filtering, 3Yr, VE-1G, 3G, 5G","PEM, Quota Management, VE","Secure Web Gateway, 1Yr, VE","Secure Web Gateway, 3Yr, VE","URL Filtering, 3Yr, VE"],"moduleEvaluations":[{"moduleName":"IP Intelligence, 1Yr, VE-1G/VE-3G/VE-5G|GLALVBV-BVMMFYA|20180109|20180224|SUBSCRIPTION","endDate":"soon"},{"moduleName":"URL Filtering, 1Yr, VE|DNUBTRV-RHSLZUF|20180109|20180224|SUBSCRIPTION","endDate":"soon"}],"featureFlags":[{"featureName":"apm_access_sessions","featureValue":"2700"},{"featureName":"apm_sessions","featureValue":"550"},{"featureName":"apm_urlf_limited_sessions","featureValue":"2700"},{"featureName":"perf_SSL_Mbps","featureValue":"1"},{"featureName":"gtm_rate_limit","featureValue":"250000"},{"featureName":"gtm_rate_fallback","featureValue":"250000"},{"featureName":"ltm_dns_rate_limit","featureValue":"250000"},{"featureName":"ltm_dns_rate_fallback","featureValue":"250000"},{"featureName":"perf_VE_mem_Mb","featureValue":"4001"},{"featureName":"perf_VE_cores","featureValue":"8"},{"featureName":"perf_VE_throughput_Mbps","featureValue":"3000"},{"featureName":"perf_SSL_total_TPS","featureValue":"UNLIMITED"},{"featureName":"perf_SSL_per_core","featureValue":"enabled"},{"featureName":"perf_SSL_cmp","featureValue":"enabled"},{"featureName":"perf_remote_crypto_client","featureValue":"enabled"},{"featureName":"mod_ilx","featureValue":"enabled"},{"featureName":"ltm_network_virtualization","featureValue":"enabled"},{"featureName":"perf_http_compression_Mbps","featureValue":"UNLIMITED"},{"featureName":"nw_routing_rip","featureValue":"enabled"},{"featureName":"nw_routing_ospf","featureValue":"enabled"},{"featureName":"nw_routing_isis","featureValue":"enabled"},{"featureName":"nw_routing_bgp","featureValue":"enabled"},{"featureName":"nw_routing_bfd","featureValue":"enabled"},{"featureName":"nw_l2_transparent","featureValue":"enabled"},{"featureName":"mod_afm","featureValue":"enabled"},{"featureName":"ltm_netflow_switching","featureValue":"enabled"},{"featureName":"ltm_monitor_rule","featureValue":"enabled"},{"featureName":"mod_pem","featureValue":"enabled"},{"featureName":"mod_ltm","featureValue":"enabled"},{"featureName":"ltm_snat","featureValue":"enabled"},{"featureName":"ltm_lb_pool_member_limit","featureValue":"UNLIMITED"},{"featureName":"ltm_isnat_rule","featureValue":"enabled"},{"featureName":"ltm_classification","featureValue":"enabled"},{"featureName":"mod_dnsgtm","featureValue":"enabled"},{"featureName":"ltm_dns_v13","featureValue":"enabled"},{"featureName":"ltm_dns_lite","featureValue":"enabled"},{"featureName":"ltm_bandw_tos_qos","featureValue":"enabled"},{"featureName":"mod_cgnat","featureValue":"enabled"},{"featureName":"ltm_monitor_udp","featureValue":"enabled"},{"featureName":"ltm_monitor_tcp_ho","featureValue":"enabled"},{"featureName":"ltm_monitor_tcp","featureValue":"enabled"},{"featureName":"ltm_monitor_radius","featureValue":"enabled"},{"featureName":"ltm_monitor_icmp","featureValue":"enabled"},{"featureName":"ltm_monitor_gateway_icmp","featureValue":"enabled"},{"featureName":"dslite","featureValue":"enabled"},{"featureName":"cgnat","featureValue":"enabled"},{"featureName":"mod_asm","featureValue":"enabled"},{"featureName":"ltm_proxy_content","featureValue":"enabled"},{"featureName":"ltm_ha_vlan_failsafe","featureValue":"enabled"},{"featureName":"ltm_conn_one_connect_pool","featureValue":"enabled"},{"featureName":"mod_apm","featureValue":"enabled"},{"featureName":"apm_pingaccess","featureValue":"enabled"},{"featureName":"mod_afw","featureValue":"enabled"},{"featureName":"ltm_ssl_fwdp","featureValue":"enabled"},{"featureName":"ltm_dnssec","featureValue":"enabled"},{"featureName":"ltm_dns_licensed_objects","featureValue":"UNLIMITED"},{"featureName":"ltm_bandw_rate_tosque","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_fairque","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_classl7","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_classl4","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_classes","featureValue":"enabled"},{"featureName":"gtm_licensed_objects","featureValue":"UNLIMITED"},{"featureName":"Deny_version","featureValue":"10.*.*"},{"featureName":"Deny_version","featureValue":"11.0.*"},{"featureName":"Deny_version","featureValue":"11.1.*"},{"featureName":"Deny_version","featureValue":"11.2.*"},{"featureName":"Deny_version","featureValue":"11.3.*"},{"featureName":"Deny_version","featureValue":"11.4.*"},{"featureName":"Deny_version","featureValue":"11.5.*"},{"featureName":"Deny_version","featureValue":"9.*.*"},{"featureName":"apm_web_applications","featureValue":"enabled"},{"featureName":"apm_urlf_sessions","featureValue":"100"},{"featureName":"apm_remote_desktop","featureValue":"enabled"},{"featureName":"apm_na","featureValue":"enabled"},{"featureName":"apm_ep_svk","featureValue":"enabled"},{"featureName":"apm_ep_pws","featureValue":"enabled"},{"featureName":"apm_ep_machinecert","featureValue":"enabled"},{"featureName":"apm_ep_fwcheck","featureValue":"enabled"},{"featureName":"apm_ep_avcheck","featureValue":"enabled"},{"featureName":"apm_ep","featureValue":"enabled"},{"featureName":"apm_app_tunnel","featureValue":"enabled"},{"featureName":"20180224_url_filtering","featureValue":"enabled"},{"featureName":"20180224_subscr_url_filtering","featureValue":"1598252403"},{"featureName":"20180224_subscr_trusted_ip","featureValue":"1598252406"},{"featureName":"gtm_lc","featureValue":"disabled"},{"featureName":"certificate_auth","featureValue":"v2"}],"expiresInDays":"46.2","expiresInDaysMessage":"License expires in 46 days, 5 hours.","generation":0,"lastUpdateMicros":0,"kind":"tm:shared:licensing:registration:licensestate","selfLink":"https://localhost/mgmt/tm/shared/licensing/registration"}
+2018-01-10T02:22:07.718Z debug: [pid: 11473] [lib/bigIp.js]  {"vendor":"F5 Networks, Inc.","licensedDateTime":"2018-01-09T00:00:00-08:00","licensedVersion":"13.1.0","licenseEndDateTime":"2018-02-24T00:00:00-08:00","licenseStartDateTime":"2018-01-08T00:00:00-08:00","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","dossier":"1286c57cd91225fa98d12e1fa2e1a70d0a162d7dec4846e4b34abc99b2fd1e29b924813304ad629468fda48589c5ea7ae0d41f8843a9dbbce9d28bef43eaf2d15c64b70a89842ea3606b2e35231a80e2c3b216aa668bf9c5701dd50eebf11d4626b0e664d695a1fc52dcaf3f1223a7a66e075e5e1e82a2","authorization":"c4cd1aec31ed3d3553dcf0b3489a440c229594bffffa168b28d9d1448f627adfb6fdea50f38ce18eca3ecbf468e0ff42a0f9801df4950d8a77994f207592a36191d70957287885162f721669df6b2578ce7da4171096646638a2e76718f3380e8faa0015698c320cd899db06ddc2fe46a61ddb0faba9029ada1a765eb94b8948dcfe96ea0fbe195de2c5e42b3f8349ec757da0124f5cea05265c2d0fa4b74867cdcbd0047fc7d9e8bb4541996b31a8fd2178ecc8cf5e289411dc6ae5c6c3fbab0b1201eb17745f8cbaf41bea19e9e7537f75a7293a9e78d03387e26645cab6d4a9db87503642ac95431023a700a80937da3aba2d50fe1644c542260b00844b20","usage":"Evaluation","platformId":"Z100k","authVers":"5b","serviceCheckDateTime":"2018-01-08T00:00:00-08:00","machineId":"7f2b61c9-a4ef-48d5-903d-19379974db80","exclusivePlatform":["Z100","Z100A","Z100AzureCloud","Z100GoogleCloud","Z100H","Z100K","Z100x"],"activeModules":["APM, Base, VE GBB (500 CCU, 2500 Access Sessions)|WBGMSRE-SDTPEYP|Anti-Virus Checks|Base Endpoint Security Checks|Firewall Checks|Network Access|Secure Virtual Keyboard|APM, Web Application|Machine Certificate Checks|Protected Workspace|Remote Desktop|App Tunnel","Best Bundle, VE-3G|BHOAEMM-MZQCJBK|SSL, Forward Proxy, VE|50 CCU, 200 Access Sessions|Rate Shaping|DNSSEC|GTM Licensed Objects, Unlimited|DNS Licensed Objects, Unlimited|DNS Rate Fallback, 250K|GTM Rate Fallback, 250K|GTM Rate, 250K|DNS Rate Limit, 250K QPS|Routing Bundle, VE|ASM, VE|DNS-GTM, Base, 3Gbps|SSL, VE|Max Compression, VE|AFM, VE|CGN, BIG-IP VE, AFM ONLY|PSM, VE","PEM, ADD-VE, 3G|XFKYYJW-UBNWLOQ"],"optionalModules":["Advanced Protocols, VE","APC-VE, Introductory","APC-VE, Introductory to Medium Upgrade","APC-VE, Medium","App Mode (TMSH Only, No Root/Bash)","Best, 3 Gbps -5 Gbps Upgrade","BIG-IP VE, Multicast Routing","CGN, ADD-VE, 3G","Concurrent Users and Access Sessions, VE","DataSafe, VE-3G","DNS and GTM (250 QPS), VE","External Interface and Network HSM, VE","FIPS 140-2 Level 1, BIG-IP VE-1G to 10G","IP Intelligence, 3Yr, VE-1G/VE-3G/VE-5G","PEM URL Filtering, 1Yr, VE-1G, 3G, 5G","PEM URL Filtering, 3Yr, VE-1G, 3G, 5G","PEM, Quota Management, VE","Secure Web Gateway, 1Yr, VE","Secure Web Gateway, 3Yr, VE","URL Filtering, 3Yr, VE"],"moduleEvaluations":[{"moduleName":"IP Intelligence, 1Yr, VE-1G/VE-3G/VE-5G|GLALVBV-BVMMFYA|20180109|20180224|SUBSCRIPTION","endDate":"soon"},{"moduleName":"URL Filtering, 1Yr, VE|DNUBTRV-RHSLZUF|20180109|20180224|SUBSCRIPTION","endDate":"soon"}],"featureFlags":[{"featureName":"apm_access_sessions","featureValue":"2700"},{"featureName":"apm_sessions","featureValue":"550"},{"featureName":"apm_urlf_limited_sessions","featureValue":"2700"},{"featureName":"perf_SSL_Mbps","featureValue":"1"},{"featureName":"gtm_rate_limit","featureValue":"250000"},{"featureName":"gtm_rate_fallback","featureValue":"250000"},{"featureName":"ltm_dns_rate_limit","featureValue":"250000"},{"featureName":"ltm_dns_rate_fallback","featureValue":"250000"},{"featureName":"perf_VE_mem_Mb","featureValue":"4001"},{"featureName":"perf_VE_cores","featureValue":"8"},{"featureName":"perf_VE_throughput_Mbps","featureValue":"3000"},{"featureName":"perf_SSL_total_TPS","featureValue":"UNLIMITED"},{"featureName":"perf_SSL_per_core","featureValue":"enabled"},{"featureName":"perf_SSL_cmp","featureValue":"enabled"},{"featureName":"perf_remote_crypto_client","featureValue":"enabled"},{"featureName":"mod_ilx","featureValue":"enabled"},{"featureName":"ltm_network_virtualization","featureValue":"enabled"},{"featureName":"perf_http_compression_Mbps","featureValue":"UNLIMITED"},{"featureName":"nw_routing_rip","featureValue":"enabled"},{"featureName":"nw_routing_ospf","featureValue":"enabled"},{"featureName":"nw_routing_isis","featureValue":"enabled"},{"featureName":"nw_routing_bgp","featureValue":"enabled"},{"featureName":"nw_routing_bfd","featureValue":"enabled"},{"featureName":"nw_l2_transparent","featureValue":"enabled"},{"featureName":"mod_afm","featureValue":"enabled"},{"featureName":"ltm_netflow_switching","featureValue":"enabled"},{"featureName":"ltm_monitor_rule","featureValue":"enabled"},{"featureName":"mod_pem","featureValue":"enabled"},{"featureName":"mod_ltm","featureValue":"enabled"},{"featureName":"ltm_snat","featureValue":"enabled"},{"featureName":"ltm_lb_pool_member_limit","featureValue":"UNLIMITED"},{"featureName":"ltm_isnat_rule","featureValue":"enabled"},{"featureName":"ltm_classification","featureValue":"enabled"},{"featureName":"mod_dnsgtm","featureValue":"enabled"},{"featureName":"ltm_dns_v13","featureValue":"enabled"},{"featureName":"ltm_dns_lite","featureValue":"enabled"},{"featureName":"ltm_bandw_tos_qos","featureValue":"enabled"},{"featureName":"mod_cgnat","featureValue":"enabled"},{"featureName":"ltm_monitor_udp","featureValue":"enabled"},{"featureName":"ltm_monitor_tcp_ho","featureValue":"enabled"},{"featureName":"ltm_monitor_tcp","featureValue":"enabled"},{"featureName":"ltm_monitor_radius","featureValue":"enabled"},{"featureName":"ltm_monitor_icmp","featureValue":"enabled"},{"featureName":"ltm_monitor_gateway_icmp","featureValue":"enabled"},{"featureName":"dslite","featureValue":"enabled"},{"featureName":"cgnat","featureValue":"enabled"},{"featureName":"mod_asm","featureValue":"enabled"},{"featureName":"ltm_proxy_content","featureValue":"enabled"},{"featureName":"ltm_ha_vlan_failsafe","featureValue":"enabled"},{"featureName":"ltm_conn_one_connect_pool","featureValue":"enabled"},{"featureName":"mod_apm","featureValue":"enabled"},{"featureName":"apm_pingaccess","featureValue":"enabled"},{"featureName":"mod_afw","featureValue":"enabled"},{"featureName":"ltm_ssl_fwdp","featureValue":"enabled"},{"featureName":"ltm_dnssec","featureValue":"enabled"},{"featureName":"ltm_dns_licensed_objects","featureValue":"UNLIMITED"},{"featureName":"ltm_bandw_rate_tosque","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_fairque","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_classl7","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_classl4","featureValue":"enabled"},{"featureName":"ltm_bandw_rate_classes","featureValue":"enabled"},{"featureName":"gtm_licensed_objects","featureValue":"UNLIMITED"},{"featureName":"Deny_version","featureValue":"10.*.*"},{"featureName":"Deny_version","featureValue":"11.0.*"},{"featureName":"Deny_version","featureValue":"11.1.*"},{"featureName":"Deny_version","featureValue":"11.2.*"},{"featureName":"Deny_version","featureValue":"11.3.*"},{"featureName":"Deny_version","featureValue":"11.4.*"},{"featureName":"Deny_version","featureValue":"11.5.*"},{"featureName":"Deny_version","featureValue":"9.*.*"},{"featureName":"apm_web_applications","featureValue":"enabled"},{"featureName":"apm_urlf_sessions","featureValue":"100"},{"featureName":"apm_remote_desktop","featureValue":"enabled"},{"featureName":"apm_na","featureValue":"enabled"},{"featureName":"apm_ep_svk","featureValue":"enabled"},{"featureName":"apm_ep_pws","featureValue":"enabled"},{"featureName":"apm_ep_machinecert","featureValue":"enabled"},{"featureName":"apm_ep_fwcheck","featureValue":"enabled"},{"featureName":"apm_ep_avcheck","featureValue":"enabled"},{"featureName":"apm_ep","featureValue":"enabled"},{"featureName":"apm_app_tunnel","featureValue":"enabled"},{"featureName":"20180224_url_filtering","featureValue":"enabled"},{"featureName":"20180224_subscr_url_filtering","featureValue":"1598252403"},{"featureName":"20180224_subscr_trusted_ip","featureValue":"1598252406"},{"featureName":"gtm_lc","featureValue":"disabled"},{"featureName":"certificate_auth","featureValue":"v2"}],"expiresInDays":"46.2","expiresInDaysMessage":"License expires in 46 days, 5 hours.","generation":0,"lastUpdateMicros":0,"kind":"tm:shared:licensing:registration:licensestate","selfLink":"https://localhost/mgmt/tm/shared/licensing/registration"}
+2018-01-10T02:22:07.720Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:07.721Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:07.735Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.735Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.736Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:07.736Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:07.751Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.751Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.752Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:07.752Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:07.769Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.769Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.772Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:07.772Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:07.791Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.791Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:07.793Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:07.793Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:07.819Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:22:07.820Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:22:07.841Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:22:07.846Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:22:16.728Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:22:16.728Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:22:16.730Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/license {"command":"install","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","addOnKeys":["bigip2addonKey1","bigip1addonKey2","bigip2addonKey3"]}
+2018-01-10T02:22:16.730Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/license {"command":"install","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","addOnKeys":["bigip2addonKey1","bigip1addonKey2","bigip2addonKey3"]}
+2018-01-10T02:22:31.954Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:license:installstate","command":"install","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","addOnKeys":["bigip2addonKey1","bigip1addonKey2","bigip2addonKey3"],"commandResult":"New license installed\n"}
+2018-01-10T02:22:31.955Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:license:installstate","command":"install","registrationKey":"PVDJE-RHSDT-XJEUM-HVXQJ-HFWMFAP","addOnKeys":["bigip2addonKey1","bigip1addonKey2","bigip2addonKey3"],"commandResult":"New license installed\n"}
+2018-01-10T02:22:31.978Z debug: [pid: 11473] [scripts/onboard.js] New license installed
+2018-01-10T02:22:31.979Z debug: [pid: 11473] [scripts/onboard.js] New license installed
+2018-01-10T02:22:31.979Z info: [pid: 11473] [scripts/onboard.js] Provisioning modules {"ltm":"nominal"}
+2018-01-10T02:22:31.996Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:31.996Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:31.980Z info: [pid: 11473] [scripts/onboard.js] Provisioning modules {"ltm":"nominal"}
+2018-01-10T02:22:32.106Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.106Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.110Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:32.110Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:32.125Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.126Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.127Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:32.128Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:32.158Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.159Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.163Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:32.164Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:32.193Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.193Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:32.196Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:32.197Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:32.252Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:22:32.266Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:22:32.285Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 90
+2018-01-10T02:22:32.285Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 90
+2018-01-10T02:22:42.288Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:42.289Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:42.333Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:42.340Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:42.344Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:42.344Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:42.381Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:42.382Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:42.387Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:42.387Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:43.480Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:43.480Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:43.591Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:43.614Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:43.783Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:43.784Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:43.787Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:43.787Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:43.850Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:22:43.852Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:22:43.855Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 89
+2018-01-10T02:22:43.855Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 89
+2018-01-10T02:22:53.858Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:53.859Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:22:54.595Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.596Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.598Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:54.598Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:22:54.619Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.620Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.623Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:54.631Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:22:54.942Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.944Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.946Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:54.947Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:22:54.986Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.986Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:22:54.990Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:54.990Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:22:55.059Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:22:55.064Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-in-progress"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:22:55.067Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 88
+2018-01-10T02:22:55.068Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 88
+2018-01-10T02:23:05.072Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:05.073Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:05.117Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:05.118Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:05.121Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:05.122Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:05.141Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:05.142Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:05.146Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:23:05.146Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:23:39.892Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:39.894Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:39.904Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:23:39.904Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:23:40.292Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:40.293Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:40.295Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:40.296Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:40.435Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-succeed"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:23:40.452Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"high-config-load-succeed"},"phase":{"description":"base"}}}}}}
+2018-01-10T02:23:40.460Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 87
+2018-01-10T02:23:40.461Z verbose: [pid: 11473] [lib/util.js] tryUntil error: MCP not ready yet. tries left: 87
+2018-01-10T02:23:50.686Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:50.709Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:50.865Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:50.867Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:50.871Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:50.872Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:50.916Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:50.917Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:50.921Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:23:50.921Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:23:50.964Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:50.964Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:50.967Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:23:50.967Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:23:51.005Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.006Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.022Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:51.022Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:51.085Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:51.088Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:51.091Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/provision/
+2018-01-10T02:23:51.092Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/provision/
+2018-01-10T02:23:51.171Z debug: [pid: 11473] [lib/bigIp.js]  [{"kind":"tm:sys:provision:provisionstate","name":"afm","fullPath":"afm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/afm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"am","fullPath":"am","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/am?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"apm","fullPath":"apm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/apm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"asm","fullPath":"asm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/asm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"avr","fullPath":"avr","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/avr?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"dos","fullPath":"dos","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/dos?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"fps","fullPath":"fps","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/fps?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"gtm","fullPath":"gtm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/gtm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"ilx","fullPath":"ilx","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/ilx?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"lc","fullPath":"lc","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/lc?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"ltm","fullPath":"ltm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/ltm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"nominal","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"pem","fullPath":"pem","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/pem?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"swg","fullPath":"swg","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/swg?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"urldb","fullPath":"urldb","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/urldb?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0}]
+2018-01-10T02:23:51.178Z debug: [pid: 11473] [lib/bigIp.js]  [{"kind":"tm:sys:provision:provisionstate","name":"afm","fullPath":"afm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/afm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"am","fullPath":"am","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/am?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"apm","fullPath":"apm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/apm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"asm","fullPath":"asm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/asm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"avr","fullPath":"avr","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/avr?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"dos","fullPath":"dos","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/dos?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"fps","fullPath":"fps","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/fps?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"gtm","fullPath":"gtm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/gtm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"ilx","fullPath":"ilx","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/ilx?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"lc","fullPath":"lc","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/lc?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"ltm","fullPath":"ltm","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/ltm?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"nominal","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"pem","fullPath":"pem","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/pem?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"swg","fullPath":"swg","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/swg?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0},{"kind":"tm:sys:provision:provisionstate","name":"urldb","fullPath":"urldb","generation":1,"selfLink":"https://localhost/mgmt/tm/sys/provision/urldb?ver=13.1.0.1","cpuRatio":0,"diskRatio":0,"level":"none","memoryRatio":0}]
+2018-01-10T02:23:51.187Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:51.188Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:23:51.220Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.221Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.223Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:51.224Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:23:51.242Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.242Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.244Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:23:51.245Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:23:51.289Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.289Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.292Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:23:51.292Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:23:51.321Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.322Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:23:51.324Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:51.327Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:23:51.385Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:51.386Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:23:51.388Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:23:51.388Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:23:51.673Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:23:51.676Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:23:51.677Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:23:51.681Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 90
+2018-01-10T02:23:51.682Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 90
+2018-01-10T02:23:51.678Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:01.687Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:01.688Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:01.785Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.786Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.792Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:01.793Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:01.820Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.822Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.826Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:01.827Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:01.889Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.890Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.898Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:01.901Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:01.946Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.947Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:01.950Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:01.951Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:02.027Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:02.030Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:02.033Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:02.033Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:02.096Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:02.104Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:02.125Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:02.131Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 89
+2018-01-10T02:24:02.132Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 89
+2018-01-10T02:24:02.127Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:12.136Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:12.137Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:12.192Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.193Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.196Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:12.196Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:12.217Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.218Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.220Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:12.221Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:12.253Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.254Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.256Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:12.257Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:12.288Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.289Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:12.291Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:12.292Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:12.356Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:12.358Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:12.362Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:12.363Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:12.414Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:12.421Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:12.422Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:12.425Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 88
+2018-01-10T02:24:12.425Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 88
+2018-01-10T02:24:12.422Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:22.429Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:22.430Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:22.476Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.477Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.480Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:22.481Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:22.515Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.516Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.522Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:22.524Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:22.581Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.582Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.585Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:22.586Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:22.646Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.647Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:22.651Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:22.652Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:22.778Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:22.784Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:22.794Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:22.796Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:22.917Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:22.922Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:22.925Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:22.931Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 87
+2018-01-10T02:24:22.932Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 87
+2018-01-10T02:24:22.927Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:32.947Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:32.949Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:33.026Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.028Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.035Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:33.036Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:33.155Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.156Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.163Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:33.164Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:33.335Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.336Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.344Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:33.347Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:33.440Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.441Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:33.445Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:33.446Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:33.539Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:33.548Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:33.552Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:33.552Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:33.676Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:33.682Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:33.686Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:33.692Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 86
+2018-01-10T02:24:33.694Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 86
+2018-01-10T02:24:33.687Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:43.700Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:43.702Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:43.746Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.747Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.750Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:43.751Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:43.778Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.779Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.782Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:43.782Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:43.830Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.834Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.839Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:43.840Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:43.887Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.887Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:43.891Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:43.892Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:43.967Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:43.973Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:43.979Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:43.980Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:44.117Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:44.122Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"red"},"status":{"description":"OFFLINE"},"summary":{"description":"1/1 offline"}}}}}}
+2018-01-10T02:24:44.124Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:44.129Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 85
+2018-01-10T02:24:44.130Z verbose: [pid: 11473] [lib/util.js] tryUntil error: BIG-IP not active. tries left: 85
+2018-01-10T02:24:44.125Z debug: [pid: 11473] [lib/bigIp.js] Current state: OFFLINE
+2018-01-10T02:24:54.133Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:54.134Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:54.179Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.179Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.181Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:54.182Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:54.199Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.200Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.202Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:54.203Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:54.234Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.236Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.238Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:54.239Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:54.273Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.274Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.277Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:54.277Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:54.339Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:54.342Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:54.344Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:54.345Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:24:54.415Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"green"},"https://localhost/mgmt/tm/cm/failoverStatus/0/details":{"nestedStats":{"entries":{"https://localhost/mgmt/tm/cm/failoverStatus/0/details/0":{"nestedStats":{"entries":{"details":{"description":"active for /Common/traffic-group-1"}}}}}}},"status":{"description":"ACTIVE"},"summary":{"description":"1/1 active"}}}}}}
+2018-01-10T02:24:54.419Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"green"},"https://localhost/mgmt/tm/cm/failoverStatus/0/details":{"nestedStats":{"entries":{"https://localhost/mgmt/tm/cm/failoverStatus/0/details/0":{"nestedStats":{"entries":{"details":{"description":"active for /Common/traffic-group-1"}}}}}}},"status":{"description":"ACTIVE"},"summary":{"description":"1/1 active"}}}}}}
+2018-01-10T02:24:54.420Z debug: [pid: 11473] [lib/bigIp.js] Current state: ACTIVE
+2018-01-10T02:24:54.422Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:24:54.422Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:24:54.423Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:24:54.424Z info: [pid: 11473] [scripts/onboard.js] Saving config.
+2018-01-10T02:24:54.429Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:54.420Z debug: [pid: 11473] [lib/bigIp.js] Current state: ACTIVE
+2018-01-10T02:24:54.429Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:24:54.424Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:24:54.425Z info: [pid: 11473] [scripts/onboard.js] Saving config.
+2018-01-10T02:24:54.456Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.457Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.459Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:54.460Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:24:54.476Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.476Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.482Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:54.482Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:24:54.528Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.528Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.533Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:54.533Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:24:54.569Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.570Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:24:54.573Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:54.574Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:24:54.651Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:54.653Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:24:54.657Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:24:54.658Z debug: [pid: 11473] [lib/bigIp.js] create localhost /tm/sys/config {"command":"save"}
+2018-01-10T02:25:07.084Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:25:07.085Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:25:07.087Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:25:07.087Z debug: [pid: 11473] [scripts/onboard.js]  {"kind":"tm:sys:config:savestate","command":"save"}
+2018-01-10T02:25:07.088Z info: [pid: 11473] [scripts/onboard.js] Waiting for BIG-IP to be active.
+2018-01-10T02:25:07.091Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:25:07.092Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:25:07.089Z info: [pid: 11473] [scripts/onboard.js] Waiting for BIG-IP to be active.
+2018-01-10T02:25:07.136Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.136Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.138Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:25:07.138Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:25:07.158Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.158Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.162Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:25:07.162Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:25:07.197Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.198Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.200Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:25:07.200Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:25:07.235Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.235Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.239Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:25:07.240Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:25:07.302Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:25:07.304Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:25:07.306Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:25:07.307Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/failover-status
+2018-01-10T02:25:07.362Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"green"},"https://localhost/mgmt/tm/cm/failoverStatus/0/details":{"nestedStats":{"entries":{"https://localhost/mgmt/tm/cm/failoverStatus/0/details/0":{"nestedStats":{"entries":{"details":{"description":"active for /Common/traffic-group-1"}}}}}}},"status":{"description":"ACTIVE"},"summary":{"description":"1/1 active"}}}}}}
+2018-01-10T02:25:07.382Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:cm:failover-status:failover-statusstats","selfLink":"https://localhost/mgmt/tm/cm/failover-status?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/cm/failover-status/0":{"nestedStats":{"entries":{"color":{"description":"green"},"https://localhost/mgmt/tm/cm/failoverStatus/0/details":{"nestedStats":{"entries":{"https://localhost/mgmt/tm/cm/failoverStatus/0/details/0":{"nestedStats":{"entries":{"details":{"description":"active for /Common/traffic-group-1"}}}}}}},"status":{"description":"ACTIVE"},"summary":{"description":"1/1 active"}}}}}}
+2018-01-10T02:25:07.384Z debug: [pid: 11473] [lib/bigIp.js] Current state: ACTIVE
+2018-01-10T02:25:07.386Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:25:07.387Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:25:07.388Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:25:07.389Z info: [pid: 11473] [scripts/onboard.js] BIG-IP onboard complete.
+2018-01-10T02:25:07.394Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:25:07.384Z debug: [pid: 11473] [lib/bigIp.js] Current state: ACTIVE
+2018-01-10T02:25:07.395Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/echo-js/available
+2018-01-10T02:25:07.388Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:25:07.390Z info: [pid: 11473] [scripts/onboard.js] BIG-IP onboard complete.
+2018-01-10T02:25:07.426Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.426Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.429Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:25:07.429Z debug: [pid: 11473] [lib/bigIp.js] list localhost /shared/identified-devices/config/device-info/available
+2018-01-10T02:25:07.448Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.449Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.452Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:25:07.452Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/available
+2018-01-10T02:25:07.484Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.484Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.488Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:25:07.488Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/cm/available
+2018-01-10T02:25:07.534Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.543Z debug: [pid: 11473] [lib/bigIp.js] 
+2018-01-10T02:25:07.555Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:25:07.556Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/mcp-state/
+2018-01-10T02:25:07.623Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:25:07.625Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:mcp-state:mcp-statestats","selfLink":"https://localhost/mgmt/tm/sys/mcp-state?ver=13.1.0.1","entries":{"https://localhost/mgmt/tm/sys/mcp-state/0":{"nestedStats":{"entries":{"endPlatformIdReceived":{"description":"true"},"lastLoad":{"description":"full-config-load-succeed"},"phase":{"description":"running"}}}}}}
+2018-01-10T02:25:07.628Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/db/provision.action
+2018-01-10T02:25:07.632Z debug: [pid: 11473] [lib/bigIp.js] list localhost /tm/sys/db/provision.action
+2018-01-10T02:25:07.708Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:db:dbstate","name":"provision.action","fullPath":"provision.action","generation":9,"selfLink":"https://localhost/mgmt/tm/sys/db/provision.action?ver=13.1.0.1","defaultValue":"none","scfConfig":"false","value":"none","valueRange":"diskmgmt none reboot"}
+2018-01-10T02:25:07.709Z debug: [pid: 11473] [lib/bigIp.js]  {"kind":"tm:sys:db:dbstate","name":"provision.action","fullPath":"provision.action","generation":9,"selfLink":"https://localhost/mgmt/tm/sys/db/provision.action?ver=13.1.0.1","defaultValue":"none","scfConfig":"false","value":"none","valueRange":"diskmgmt none reboot"}
+2018-01-10T02:25:07.712Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:25:07.713Z debug: [pid: 11473] [scripts/onboard.js] 
+2018-01-10T02:25:07.790Z info: [pid: 11473] [lib/util.js] Onboard finished.
+2018-01-10T02:25:07.791Z info: [pid: 11473] [lib/util.js] Onboard finished.
+Onboard command exited without error.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (60) SSL certificate problem: self signed certificate
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl performs SSL certificate verification by default, using a "bundle"
+ of Certificate Authority (CA) public keys (CA certs). If the default
+ bundle file isn't adequate, you can specify an alternate file
+ using the --cacert option.
+If this HTTPS server uses a certificate signed by a CA represented in
+ the bundle, the certificate verification probably failed due to a
+ problem with the certificate (it might be expired, or the name might
+ not match the domain name in the URL).
+If you'd like to turn off curl's verification of the certificate, use
+ the -k (or --insecure) option.
